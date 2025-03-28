@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+
+    <style>
+#button-container{
+display: flex;
+justify-content: center;
+
+}
+
+.btn{
+
+margin: 5px;
+padding: 50px;
+border: 3px solid slategray
+
+}
+
+#results-container {
+font-size: 20px;
+text-align: center;
+}
+
+#current-score{
+font-size: 20px;
+text-align: center;
+}
+
+    </style>
 </head>
+
 <body>
     
+<div id="button-container">
+<button class="btn"id='rock'>Rock</button>
+<button class="btn" id='paper'>Paper</button>
+<button class="btn" id='scissors'>Scissors</button>
+</div>
+
+<div id="results-container">
+</div>
+<div id="current-score"></div>
+
+
+
+<script src="script.js"></script>
 </body>
 </html>
